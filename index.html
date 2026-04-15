@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De' jagongan caffe | Kembangan, Kuwu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-earth { background-color: #2D2424; }
+        .text-coffee { color: #8D7B68; }
+        .bg-coffee { background-color: #8D7B68; }
+        .bg-cream { background-color: #F8EDE3; }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('http://hostgambar.vercel.app/image/AgACAgUAAyEGAATk_963AAIB12nfK0uecfJB5bX_6pDqpjVE2-fRAAIHE2sbfmsAAVfrlCUZ4Pu6wAEAAwIAA3gAAzsE');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+        }
+
+        .menu-container {
+            transition: all 0.3s ease;
+        }
+        .menu-container:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-cream text-gray-800">
+
+    <!-- Navigasi -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
+        <div class="text-xl md:text-2xl font-bold tracking-tighter text-earth">
+            De' <span class="text-coffee">jagongan</span> caffe
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-widest text-earth">
+            <a href="#beranda" class="hover:text-coffee transition">Beranda</a>
+            <a href="#menu" class="hover:text-coffee transition">Daftar Menu</a>
+            <a href="#lokasi" class="hover:text-coffee transition">Kontak</a>
+        </div>
+        <a href="https://wa.me/6281293601589" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full text-sm font-bold transition flex items-center shadow-lg">
+            <i class="fab fa-whatsapp mr-2"></i> Reservasi
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero-section flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl pt-20">
+            <div class="inline-block px-4 py-1 bg-coffee/90 rounded-full text-xs font-bold tracking-[0.2em] mb-6 uppercase shadow-lg">
+                Kembangan, Kuwu - Grobogan
+            </div>
+            <h1 class="text-5xl md:text-7xl mb-6 drop-shadow-lg">Jagongan Nyaman & Hidangan Lezat</h1>
+            <p class="text-lg md:text-xl mb-10 font-light opacity-95 max-w-2xl mx-auto leading-relaxed">
+                Nikmati perpaduan kopi nikmat dan berbagai pilihan menu makanan dalam suasana santai yang menenangkan.
+            </p>
+            <div class="flex justify-center">
+                <a href="#menu" class="bg-coffee text-white px-12 py-4 rounded-full font-bold hover:bg-earth transition shadow-xl scale-100 hover:scale-105 transform">
+                    Lihat Daftar Menu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Menu Langsung -->
+    <section id="menu" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-coffee font-bold tracking-widest uppercase text-sm">Pilihan Terbaik</span>
+                <h2 class="text-4xl md:text-5xl text-earth mt-2 mb-4">Daftar Menu Kami</h2>
+                <div class="w-24 h-1 bg-coffee mx-auto mb-6"></div>
+                <p class="text-gray-500 max-w-xl mx-auto">Tersedia berbagai pilihan paket nasi, camilan, dan minuman segar dengan harga terjangkau.</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="menu-container bg-cream p-4 md:p-8 rounded-[2.5rem] shadow-xl overflow-hidden border border-gray-100">
+                    <!-- Menggunakan foto menu yang Anda berikan -->
+                    <img src="http://hostgambar.vercel.app/image/AgACAgUAAyEGAATk_963AAIB2mnfK5p4jQ3_rmnrXj4L5JtC8sGCAAIKE2sbfmsAAVfNp61C8xU6vQEAAwIAA3kAAzsE" 
+                         alt="Daftar Menu De Jagongan Caffe" 
+                         class="w-full rounded-2xl shadow-md border border-white">
+                </div>
+                
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div class="p-6">
+                        <h4 class="font-bold text-earth text-lg mb-2">Menu Halal</h4>
+                        <p class="text-sm text-gray-500">Semua bahan baku terjamin kehalalannya.</p>
+                    </div>
+                    <div class="p-6 border-x border-gray-100">
+                        <h4 class="font-bold text-earth text-lg mb-2">Cepat Saji</h4>
+                        <p class="text-sm text-gray-500">Pelayanan efisien untuk kenyamanan Anda.</p>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-earth text-lg mb-2">Menerima Pesanan</h4>
+                        <p class="text-sm text-gray-500">Melayani katering untuk berbagai acara.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informasi Kontak & Lokasi -->
+    <section id="lokasi" class="py-24 px-6 bg-cream">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col lg:flex-row rounded-[3rem] overflow-hidden shadow-2xl bg-earth">
+                <!-- Info Kolom -->
+                <div class="lg:w-1/2 p-12 lg:p-16 text-white space-y-10">
+                    <div>
+                        <h2 class="text-4xl mb-6 text-white">Hubungi Kami</h2>
+                        <p class="text-gray-400">Silakan kunjungi lokasi kami atau hubungi admin melalui WhatsApp untuk reservasi.</p>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-coffee shrink-0">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span class="text-sm">Jl. Honggokusuman No.55, Kembangan, Kuwu, Kec. Kradenan, Kab. Grobogan, Jawa Tengah 58182</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-coffee shrink-0">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <span class="text-sm">Buka Setiap Hari: 11.00 – 21.00 WIB</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-orange-400 shrink-0">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold">Hanya Tunai (Cash Only)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4">
+                        <a href="https://wa.me/6281293601589" target="_blank" class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-full font-bold transition-all shadow-lg">
+                            <i class="fab fa-whatsapp mr-3 text-xl"></i> Chat WhatsApp
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Google Maps Kolom -->
+                <div class="lg:w-1/2 h-96 lg:h-auto min-h-[450px]">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.334032488812!2d111.12154627448358!3d-7.11309536975211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77174e2a14440f%3A0x8849645258673a5a!2sKembangan%2C%20Kuwu%2C%20Kradenan%2C%20Grobogan%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1715600000000!5m2!1sen!2sid" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 px-6 text-center border-t border-gray-100">
+        <div class="max-w-6xl mx-auto">
+            <h4 class="text-2xl font-bold text-earth mb-2">De' <span class="text-coffee">jagongan</span> caffe</h4>
+            <p class="text-xs text-gray-400 mb-6 uppercase tracking-widest">&copy; 2024 De' jagongan caffe - Kembangan, Kuwu.</p>
+            <div class="w-12 h-px bg-coffee/30 mx-auto"></div>
+            <p class="mt-6 text-sm text-gray-500 italic font-serif">"Papan jagongan sing ayem, nggo seduluran."</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
